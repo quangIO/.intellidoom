@@ -45,3 +45,5 @@ vnoremap <leader>mrR      <Esc>:action Refactorings.QuickListPopupAction<CR>
 " Rename symbol
 nnoremap <leader>mrr      :action RenameElement<CR>
 vnoremap <leader>mrr      :action RenameElement<CR>
+nnoremap <leader>cr      :action RenameElement<CR>
+vnoremap <leader>cr      :action RenameElement<CR>

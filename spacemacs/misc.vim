@@ -31,6 +31,6 @@ nnoremap <C-i>    :action Forward<CR>
 nnoremap <C-o>    :action Back<CR>
 
 " Execute an action. Like <M-x>
-nnoremap <A-X>    :action GotoAction<CR>
-vnoremap <A-X>    :action GotoAction<CR>
-inoremap <A-X>    <Esc>:action GotoAction<CR>
+" nnoremap <A-X>    :action GotoAction<CR>
+" vnoremap <A-X>    :action GotoAction<CR>
+" inoremap <A-X>    <Esc>:action GotoAction<CR>

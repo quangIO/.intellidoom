@@ -7,9 +7,11 @@ nnoremap <leader>b$    :action GoToLastTab<CR>
 vnoremap <leader>b$    <Esc>:action GoToLastTab<CR>
 
 " Next Tab
-nnoremap <leader>bk    :action NextTab<CR>
-vnoremap <leader>bk    <Esc>:action NextTab<CR>
+nnoremap <leader>b]    :action NextTab<CR>
+vnoremap <leader>b]    <Esc>:action NextTab<CR>
+nnoremap gt    :action NextTab<CR>
+vnoremap gt    <Esc>:action NextTab<CR>
 
 " Previous Tab
-nnoremap <leader>bj    :action PreviousTab<CR>
-vnoremap <leader>bj    <Esc>:action PreviousTab<CR>
+nnoremap gT    :action PreviousTab<CR>
+vnoremap gT    <Esc>:action PreviousTab<CR>

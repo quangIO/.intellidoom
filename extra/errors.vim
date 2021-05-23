@@ -5,6 +5,8 @@ vnoremap <leader>eL    :action InspectCode<CR>
 " Resolve error
 nnoremap <leader>er    :action ShowIntentionActions<CR>
 vnoremap <leader>er    :action ShowIntentionActions<CR>
+nnoremap <leader>ca    :action ShowIntentionActions<CR>
+vnoremap <leader>ca    :action ShowIntentionActions<CR>
 
 " Edit inspection settings
 nnoremap <leader>es    :action EditInspectionSettings<CR>

@@ -9,6 +9,8 @@ vnoremap <leader>cc    :action CompileDirty<CR>
 " Comment lines
 nnoremap <leader>cl    :action CommentByLineComment<CR>
 vnoremap <leader>cl    :action CommentByLineComment<CR>
+" nnoremap <A-/>    :action CommentByLineComment<CR>
+" vnoremap <A-/>    :action CommentByLineComment<CR>
 
 " Make module
 nnoremap <leader>cm    :action MakeModule<CR>
